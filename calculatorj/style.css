@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing:border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 1000;
+  font-style:normal;
+
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #d2e3e3);
+}
+
+.calculator{
+    border: 1px solid aqua;
+    padding: 20px;
+    border-radius: 16px;
+    background:solid #97c9c9, whitesmoke;
+    box-shadow: 0px 3px 15px rgba(61, 98, 173, 0.5);
+
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background:#7fcace;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #0d1311;
+}
+
+input::placeholder{
+    color: #bd457f;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #c375a2;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(161, 68, 68, 0.1);
+    cursor: pointer;
+}
+
+.equalBtn{
+    background-color: #06f2fe;
+}
+
+.operator{
+    color: #8951e3;
+}
